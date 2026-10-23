@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="yandex-verification" content="ca30af0fc9939164">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Развал-схождение в Петропавловске от 8 000 ₸ — Семашко, 15</title>
-  <meta name="description" content="3D развал-схождение в Петропавловске, ул. Семашко, 15. Легковые — 8 000 ₸ за одну ось, 12 000 ₸ за две. Джипы, ВАЗ и Нива. Запись: +7 707 747-77-24.">
+  <title>3D развал-схождение в Петропавловске от 8 000 ₸ | Автокомплекс 15</title>
+  <meta name="description" content="3D развал-схождение в Петропавловске на современном оборудовании. Регулировка углов установки колёс от 8 000 ₸. Адрес: ул. Семашко, 15. Телефон: +7 707 747-77-24.">
   <meta name="theme-color" content="#050811">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://avtocomplex15.kz/">
@@ -21,7 +21,8 @@
   <meta property="og:url" content="https://avtocomplex15.kz/">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preload" href="assets/hero.webp" as="image" type="image/webp" fetchpriority="high">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
+  <noscript><style>.reveal {opacity:1!important;transform:none!important}.faq-answer {grid-template-rows:1fr!important}.faq-answer p {opacity:1!important}</style></noscript>
 
   <!-- Яндекс.Метрика: 113755127, настройки в config.js и metrika.js. -->
   <script src="config.js?v=113755127" defer></script>
@@ -34,7 +35,7 @@
     {
       "@type": "AutoRepair",
       "@id": "https://avtocomplex15.kz/#service",
-      "name": "Автокомплекс 15 — 3D развал-схождение",
+      "name": "Автокомплекс 15",
       "url": "https://avtocomplex15.kz/",
       "image": "https://avtocomplex15.kz/assets/hero.webp",
       "telephone": "+77077477724",
@@ -54,6 +55,7 @@
       "priceRange": "8 000–15 000 ₸",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
+        "@id": "https://avtocomplex15.kz/#price-catalog",
         "name": "Цены на развал-схождение",
         "itemListElement": [
           {
@@ -128,19 +130,42 @@
       "@id": "https://avtocomplex15.kz/#website",
       "url": "https://avtocomplex15.kz/",
       "name": "Автокомплекс 15",
-      "inLanguage": "ru-KZ"
+      "inLanguage": "ru-KZ",
+      "publisher": {
+        "@id": "https://avtocomplex15.kz/#service"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://avtocomplex15.kz/#webpage",
       "url": "https://avtocomplex15.kz/",
-      "name": "Развал-схождение в Петропавловске — Семашко, 15",
+      "name": "3D развал-схождение в Петропавловске от 8 000 ₸ | Автокомплекс 15",
       "inLanguage": "ru-KZ",
       "isPartOf": {
         "@id": "https://avtocomplex15.kz/#website"
       },
       "about": {
         "@id": "https://avtocomplex15.kz/#service"
+      },
+      "mainEntity": {
+        "@id": "https://avtocomplex15.kz/#wheel-alignment"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://avtocomplex15.kz/#wheel-alignment",
+      "name": "3D развал-схождение в Петропавловске",
+      "serviceType": "Регулировка углов установки колёс",
+      "url": "https://avtocomplex15.kz/",
+      "provider": {
+        "@id": "https://avtocomplex15.kz/#service"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Петропавловск"
+      },
+      "hasOfferCatalog": {
+        "@id": "https://avtocomplex15.kz/#price-catalog"
       }
     }
   ]
@@ -154,7 +179,7 @@
 
   <header class="site-header" id="header">
     <div class="container header-inner glass">
-      <a class="brand" href="/" aria-label="На главную">
+      <a class="brand" href="/" aria-label="3D Геометрия — на главную">
         <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
         <span><b>3D</b> ГЕОМЕТРИЯ</span>
       </a>
@@ -340,7 +365,7 @@
           <p>Наведите курсор или нажмите на любое колесо. Схема покажет, какие параметры мы контролируем.</p>
         </div>
         <div class="geometry-wrap reveal">
-          <div class="car-diagram" aria-label="Интерактивная схема автомобиля, вид сверху">
+          <div class="car-diagram" role="group" aria-label="Интерактивная схема автомобиля, вид сверху">
             <div class="car-body">
               <div class="windshield"></div>
               <div class="roof"></div>
@@ -387,7 +412,7 @@
             <li>Наглядная распечатка до и после регулировки</li>
           </ul>
         </div>
-        <div class="stand-animation reveal" aria-label="Анимация работы 3D стенда">
+        <div class="stand-animation reveal" role="img" aria-label="Анимация работы 3D стенда">
           <div class="camera camera-left"><i></i></div>
           <div class="camera camera-right"><i></i></div>
           <div class="beam beam-left"></div>
@@ -626,7 +651,6 @@
     </defs>
   </svg>
   <script src="script.js" defer></script>
-  <noscript><style>.reveal {opacity:1!important;transform:none!important}.faq-answer {grid-template-rows:1fr!important}.faq-answer p {opacity:1!important}</style></noscript>
 </body>
 
 </html>

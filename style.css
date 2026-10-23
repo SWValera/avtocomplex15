@@ -167,7 +167,7 @@ h1 em { color: var(--blue-2); font-style: normal; text-shadow: 0 0 38px rgba(76,
 .wheel:hover, .wheel:focus-visible, .wheel.active { outline: none; border-color: var(--blue-2); box-shadow: inset 0 0 0 7px #0a101a, 0 0 32px rgba(25,167,255,.27); transform: scale(1.04); }
 .wheel:hover span, .wheel:focus-visible span, .wheel.active span { opacity: 1; animation: targetPulse 1.5s infinite; }
 .wheel-fl { left: 57px; top: 90px; }.wheel-fr { right: 57px; top: 90px; }.wheel-rl { left: 57px; bottom: 70px; }.wheel-rr { right: 57px; bottom: 70px; }
-.measure-line { position: absolute; left: 22px; right: 22px; height: 1px; background: linear-gradient(90deg, transparent, var(--blue), transparent); box-shadow: 0 0 8px var(--blue); }
+.measure-line { position: absolute; left: 22px; right: 22px; height: 1px; background: linear-gradient(90deg, transparent, var(--blue), transparent); box-shadow: 0 0 8px var(--blue); pointer-events: none; }
 .line-a { top: 157px; }.line-b { bottom: 137px; }
 .geometry-panel { padding: 34px; color: var(--text); border-radius: 20px; }
 .geometry-panel > p { margin: 0 0 4px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .18em; }
